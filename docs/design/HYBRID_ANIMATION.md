@@ -27,7 +27,7 @@ Phase 1A 已建立八个秋千坐姿动作的统一 Action 入口，Phase 1B 已
 
 ### Sprite 路线的实际程度
 
-当前 `Pet.rebuild_scale_cache`（约 2409 行）把 `assets/main.png` 缩放为 `spr2`，建立 `DepthWarp`，并在素材存在时处理帽、发、腿等可选图层。`assets/expr/` 与 `assets/emotions.json` 提供旧表达贴图；默认 `stickers_enabled=False`，短眼睑和嘴形仍可走程序绘制。`assets/scene/` 提供当前秋千场景图层与元数据。
+当前 `Pet.rebuild_scale_cache` 把 `assets/main.png` 缩放为 `spr2`，建立 `DepthWarp`，并在素材存在时处理帽、发、腿等可选图层。`assets/expr/` 与 `assets/emotions.json` 提供表达贴纸；2026-10-11 分发更新恢复默认开启并增加设置开关，一次迁移旧默认关闭值。AI 外观不显示小乔贴纸。短眼睑和嘴形仍可走程序绘制。`assets/scene/` 提供当前秋千场景图层与元数据。
 
 I-41／I-42 基线只有图像资源、姿态缓存和有限时间轴，没有角色连续动作 clip。Phase 2A 引入的是一个 180ms 的眼部局部 PNG clip，其 schema 和播放范围只覆盖这个表情，不代表已有走跳或八坐姿主动作素材、通用角色播放器。`seat_motion.ACTIONS` 仍是程序通道时间轴。不能据此宣称“Sprite 主动作已完成 80%”，也不能把旧表情包当成当前角色的新动作素材。
 

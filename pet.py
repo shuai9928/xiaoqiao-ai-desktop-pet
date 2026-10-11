@@ -2433,8 +2433,8 @@ class Pet:
         self._copied_until = 0.0       # 「已复制」提示截止时间
         self.walk_target = 0.0         # 行走目标(闲置行走暂缓,保留字段)
         self.ai_mute_sess = set(self.settings.get("ai_mute_sess", []) or [])
-        # 旧立绘情绪贴纸开关:新形象无匹配素材,默认关(保留眼睑反馈)
-        self.stickers_enabled = bool(self.settings.get("stickers_enabled", False))
+        # 小乔表情贴纸恢复：迁移一次旧默认关闭值，后续尊重用户设置。
+        self._restore_sticker_settings()
         self._scene_drag = None        # 场景整体拖动状态(on_press 里赋值)
         self.ui_reduced_anim = bool(self.settings.get("ui_reduced_anim", False))
         self._demo_until = 0.0         # 演示/截图:模拟会话注入截止时间
@@ -2874,6 +2874,21 @@ class Pet:
         self.f_moon = load_font(int(24 * s * SS), sym=True)
         self.f_chain = load_font(int(12 * s * SS))
 
+    def _restore_sticker_settings(self):
+        # Before this revision false was the retired profile's forced default,
+        # not a UI choice. Migrate once; later explicit false remains false.
+        rev = self.settings.get("stickers_rev")
+        if type(rev) is not int or rev < 1:
+            self.settings.update(stickers_enabled=True, stickers_rev=1)
+        self.stickers_enabled = bool(self.settings.get("stickers_enabled", True))
+
+    def toggle_stickers(self):
+        self.stickers_enabled = not getattr(self, "stickers_enabled", True)
+        self.settings.update(stickers_enabled=self.stickers_enabled, stickers_rev=1)
+        if not self.stickers_enabled:
+            self.sticker = self._sticker_previous = None
+        self.save_settings()
+
     def save_settings(self):
         """先把字典建好,再写临时文件、原子替换。
 
@@ -2904,7 +2919,7 @@ class Pet:
                            "ai_mute_sess": sorted(getattr(self,
                                "ai_mute_sess", set())),
                            "stickers_enabled": getattr(self,
-                               "stickers_enabled", False),
+                               "stickers_enabled", True),
                            "swing_home": getattr(self, "swing_home", True),
                            "tts_on": self.tts_on,
                            "tts_volume": self.tts_volume,
@@ -2922,7 +2937,7 @@ class Pet:
             # must not reset an old timer, reminder or game score.
             for key in ("catch_best", "magic_style", "pomo_done", "pomo", "rps",
                         "water_min", "fg_watch", "battery_watch", "hat_orbit",
-                        "stickers_enabled", "city", "lat", "lon"):
+                        "city", "lat", "lon"):
                 if key in self.settings:
                     data[key] = self.settings[key]
                 else:
@@ -2958,6 +2973,9 @@ class Pet:
         return img
 
     def play_emotion(self, category, life=None):
+        # AI appearances own their own feedback, never Xiaoqiao's stickers/eyes.
+        if self._static_active():
+            return False
         # 情绪 → 眼睑:先于贴纸资产检查(眼睑不依赖贴纸存在也能动)
         lid_map = {"angry": 0.42, "annoyed": 0.38, "curious": 0.16,
                    "sleepy": 0.55, "tired": 0.42, "shy": 0.30,
@@ -2969,8 +2987,7 @@ class Pet:
             self._lid_mode = category
             self._lid_until = time.time() + (life or 2.6) + 0.9
             self._lid_owner = None
-        # 旧立绘情绪贴纸:新形象无匹配素材,整体关闭(眼睑与台词反馈保留;
-        # 新形象贴纸素材到位后经 stickers_enabled 重开)
+        # User can hide only the sticker; eyelids and dialogue stay available.
         if not getattr(self, "stickers_enabled", False):
             return False
         # 强度分级:默认按情感类型给合适时长(覆盖大部分调用)
@@ -9155,6 +9172,7 @@ class Pet:
         if self._static_active():
             eggs = self._ai_pet_ready().memory.get('eggs_enabled', True)
             cfg.add_command(label="AI 角色彩蛋:" + ("开" if eggs else "关"), command=self._toggle_ai_eggs)
+        cfg.add_command(label="表情贴纸:" + ("开" if getattr(self, "stickers_enabled", True) else "关"), command=self.toggle_stickers)
         cfg.add_command(label="声音:" + ("开" if self.sound_on else "关"), command=self.toggle_sound)
         cfg.add_command(label="朗读回复:" + ("开" if self.tts_on else "关"), command=self.toggle_tts)
         cfg.add_command(label="AI 状态灯:" + ("开" if self.ai_lights else "关"), command=self.toggle_ai_lights)
@@ -9269,6 +9287,7 @@ class Pet:
 
         # ---- 设置 ----
         cfg = self._menu(m)
+        cfg.add_command(label="表情贴纸:" + ("开" if getattr(self, "stickers_enabled", True) else "关"), command=self.toggle_stickers)
         cfg.add_command(label="语音(全部声音):" + ("开" if self.sound_on else "关"),
                         command=self.toggle_sound)
         cfg.add_command(label="开机自启:" + ("开" if autostart_enabled() else "关"),
@@ -12114,7 +12133,7 @@ class Pet:
         light.flush(frame)
 
         # 表情贴纸
-        if self.sticker:
+        if self.sticker and not (art_on and self._swing['geo'].get('flat')):
             self._draw_sticker(frame, d, now, k, spr_left, spr_top1, spr_w1, warped)
 
         # 气泡底图与排版缓存,只有小图的透明度随时间变化。
@@ -12478,6 +12497,7 @@ class Pet:
 
     def _apply_look(self, selection, reason, ui_themes):
         self._ui_theme = ui_themes.theme(selection.theme)
+        self.sticker = self._sticker_previous = None
         self._static_hold = None
         self.bubble = None
         self._ai_pet_view = None
@@ -13246,6 +13266,40 @@ class Pet:
                     dx = (u - .5) * pw * .60
                     points.append((x + dx, y + slope * dx + ph * (.06 + .10 * (1 - (2*u-1)**2))))
                 dd.line(points, fill=(66, 46, 82, 235), width=max(2, round(1.5 * sk)), joint="curve")
+
+    def _paint_workspace_sticker(self, canvas, now, u):
+        """Compact sticker in the character column, clear of face and workbench."""
+        if not getattr(self, "stickers_enabled", False) or self._static_active():
+            return
+        layers = []
+        previous = getattr(self, '_sticker_previous', None)
+        if previous:
+            st, born, (sc, alpha) = previous
+            layers.append((st, sc, alpha * max(0.0, 1-(now-born)/.18)))
+        if getattr(self, 'sticker', None):
+            sc, alpha = self._sticker_pose(self.sticker, now)
+            layers.append((self.sticker, sc, alpha))
+        for st, sc, opacity in layers:
+            if opacity <= 0:
+                continue
+            img = self.load_expr(st['name'])
+            if img is None:
+                continue
+            fit = min(48*u/img.width, 64*u/img.height) * sc
+            tw, th = max(1, round(img.width*fit)), max(1, round(img.height*fit))
+            key = ('workspace', st['name'], tw, th)
+            art = self._expr_rs.get(key)
+            if art is None:
+                art = img.resize((tw, th), Image.Resampling.LANCZOS)
+                self._expr_rs[key] = art
+                while len(self._expr_rs) > 24:
+                    self._expr_rs.popitem(last=False)
+            else:
+                self._expr_rs.move_to_end(key)
+            if opacity < 1:
+                art = art.copy()
+                art.putalpha(art.getchannel('A').point(lambda v: int(v*opacity)))
+            self._ac(canvas, art, 172*u-tw, 32*u)
 
     def _draw_sticker(self, frame, d, now, k, spr_left, spr_top1, spr_w1, warped):
         previous = self._sticker_previous

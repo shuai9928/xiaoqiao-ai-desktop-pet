@@ -20,7 +20,7 @@ import urllib.request
 ROOT = Path(__file__).resolve().parents[1]
 MANUAL_TESTS = {'test_pet', 'test_agent'}
 LEGACY_UNITS = {
-    'test_action_fx', 'test_feedback', 'test_focus', 'test_micro_motion',
+    'test_action_fx', 'test_focus', 'test_micro_motion',
     'test_recovery', 'test_refinement', 'test_studio',
 }
 KNOWN_SKIPS = {

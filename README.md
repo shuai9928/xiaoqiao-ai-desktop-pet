@@ -1,6 +1,6 @@
 # AI 桌宠 · Windows
 
-运行在 Windows 桌面的陪伴桌宠：可跟随当前 Claude、Codex、ZCode 窗口换成 AI 角色，用姿态与工作台显示本机 AI 的工作状态。也可切换为自定义的小乔角色。此分发版基于 2026-10-10 已安装的 I-52。
+运行在 Windows 桌面的陪伴桌宠：可跟随当前 Claude、Codex、ZCode 窗口换成 AI 角色，用姿态与工作台显示本机 AI 的工作状态。也可切换为自定义的小乔角色。此分发版基于 2026-10-10 的 I-52，并恢复小乔表情贴纸默认开启。
 
 [介绍与密码下载](https://xiaoqiao-ai-desktop-pet.alightcloud6.chatgpt.site) · [私密源码仓库](https://github.com/shuai9928/xiaoqiao-ai-desktop-pet)
 
@@ -31,6 +31,8 @@ py -m venv .venv
 开发检查：`py tools/run_checks.py --unit-only`。构建便携 ZIP：安装 `requirements-build.txt` 后运行 `py tools/release/build_release.py`。构建目录不可用作现有安装目录；输出位于 `release/Xiaoqiao-AI-Pet-Windows-x64.zip`。
 
 完整使用与数据说明见 [docs/GUIDE.md](docs/GUIDE.md) 与 [docs/ASSISTANT.md](docs/ASSISTANT.md)。
+
+想换成自己的角色：看 [把小乔换成你的角色](docs/CUSTOMIZE.md)。当前为手动素材／配置编辑，需自行备份与校准；素材许可独立于源码。
 
 ## 许可
 

@@ -715,6 +715,8 @@ def push(owner,small):
         if abs(ss-1)>1e-3:
             small=small.resize((max(1,round(small.width*ss)),max(1,round(small.height*ss))),Image.Resampling.BILINEAR)
         owner._ac(canvas,small,ox,oy)
+    paint_sticker=getattr(owner,'_paint_workspace_sticker',None)
+    if paint_sticker:paint_sticker(canvas,time.time(),u)
     from agent_companion import paint_effect
     paint_effect(owner,canvas,u,time.time())
     sw['scene_canvas']=canvas;sw['ui_hits']=hits

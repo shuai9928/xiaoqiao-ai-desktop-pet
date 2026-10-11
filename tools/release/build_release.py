@@ -40,7 +40,7 @@ def main():
     for name in ('README.md','ASSET_LICENSES.md','LICENSE','DISTRIBUTION.md'):
         shutil.copy2(ROOT/name,out/name)
     shutil.copytree(ROOT/'docs',out/'docs')
-    (out/'使用说明.txt').write_text('AI 桌宠 · Windows I-52\n\n完整解压后双击 DesktopPet.exe，无需 Python。首次启动无需密钥。\n右键 → 场景与设置 → 桌宠形象，可选 AI 自动跟随或固定角色。\n拖动移动、滚轮缩放、双击聊天，菜单或托盘退出。\n本机 Codex/Claude Code 观察自动开启；ZCode/WSL/跨机与账户额度需另配来源。\n自由聊天可选，使用自己的服务配置；个人数据保存在本机程序目录。\n更新先退出旧实例，再解压新版；迁移数据前请备份。\n详见 README.md、docs/GUIDE.md 与 ASSET_LICENSES.md。\nAI 角色来自 CrossPet，CC BY-NC-SA 4.0；须署名、非商用、同协议共享。\n',encoding='utf-8')
+    (out/'使用说明.txt').write_text('AI 桌宠 · Windows I-52 + 表情贴纸恢复\n\n完整解压后双击 DesktopPet.exe，无需 Python。首次启动无需密钥。\n右键 → 场景与设置 → 桌宠形象，可选 AI 自动跟随或固定角色。\n拖动移动、滚轮缩放、双击聊天，菜单或托盘退出。\n本机 Codex/Claude Code 观察自动开启；ZCode/WSL/跨机与账户额度需另配来源。\n自由聊天可选，使用自己的服务配置；个人数据保存在本机程序目录。\n更新先退出旧实例，再解压新版；迁移数据前请备份。\n表情贴纸默认开启，可在设置里关闭；旧设置只迁移一次。\n换成自己的角色请先备份，再看 docs/CUSTOMIZE.md。\n详见 README.md、docs/GUIDE.md 与 ASSET_LICENSES.md。\nAI 角色来自 CrossPet，CC BY-NC-SA 4.0；须署名、非商用、同协议共享。\n',encoding='utf-8')
     zpath=RELEASE/'Xiaoqiao-AI-Pet-Windows-x64.zip'
     with zipfile.ZipFile(zpath,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for path in sorted(out.rglob('*')):
