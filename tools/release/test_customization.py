@@ -86,11 +86,19 @@ def worker(output, custom):
             p._flat_panel_style = p._studio_style = True
             p._house_on = False
             p.topmost = False
+            if custom:
+                # A new body does not automatically replace the old sticker
+                # pack or hat effects. Hide those explicitly in this fixture.
+                p.stickers_enabled = False
+                p.hat_orbit = False
+                p._hat_fx_enabled = False
             p.open_swing_scene()
             p.bubble = None
-            p.play_emotion('happy', 2.0)
+            if not custom:
+                p.play_emotion('happy', 2.0)
             now = pet.time.time()+.6
-            p.render(now, now-p.t0)
+            with patch.object(pet.time, 'time', return_value=now):
+                p.render(now, now-p.t0)
             root.update_idletasks()
             image = p._swing['scene_canvas'].copy()
             image.save(output/('custom-robot-workspace.png' if custom else 'stickers-workspace.png'))

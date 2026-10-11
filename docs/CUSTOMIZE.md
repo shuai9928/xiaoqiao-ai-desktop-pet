@@ -76,4 +76,4 @@ py tools/bake_relief_clip.py --write-assets --out outputs/my-relief
 
 本说明的步骤用项目自制的几何机器人测试图走过：在临时副本替换 `main.png`、人物参考层和两个秋千身体层，校准眼嘴和场景几何；实际生产 `SceneArt` 加载与窗口合成使用新图，原动画银行返回 `source_mismatch`，没有混入旧人物。测试只改临时副本，未替换用户安装目录或个人数据。
 
-源码中可复跑 `py tools/release/test_customization.py --out outputs/customization`，生成测试图、实际合成画面和 JSON 结果。它验证手动资源替换与可靠回退，不能代替你的角色在真实桌面尺寸下的视觉验收。检查眼睛、帽子、手与绳、坐垫接触、贴纸和工作台是否互相遮挡；再试拖动、滚轮缩放、摸头和正常退出。
+源码中可复跑 `py tools/release/test_customization.py --out outputs/customization`，生成测试图、实际合成画面和 JSON 结果。测试图会显式隐藏原贴纸和帽子特效，避免与自制机器人混搭；日常换图也需要自己替换或关闭这些独立反馈。它验证手动资源替换与可靠回退，不能代替你的角色在真实桌面尺寸下的视觉验收。检查眼睛、帽子、手与绳、坐垫接触、贴纸和工作台是否互相遮挡；再试拖动、滚轮缩放、摸头和正常退出。
