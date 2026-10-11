@@ -1,0 +1,116 @@
+{
+  "schema_version": 2,
+  "id": "egg-glm",
+  "renderer": "static",
+  "version": 2,
+  "label": "DeepSeek",
+  "theme": "glm",
+  "reference_size": [
+    881,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/egg-glm",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          630,
+          640
+        ],
+        "foot_anchor": [
+          220.0,
+          640
+        ],
+        "sha256": "1fd493908f93e74e3de4eeeb427172bdd248c8618c2e3cca3cbebf6360649b25"
+      }
+    ],
+    "caught": [
+      {
+        "file": "caught.webp",
+        "size": [
+          881,
+          640
+        ],
+        "foot_anchor": [
+          429.2,
+          640
+        ],
+        "sha256": "2a060032478b6a5bd089e3b24cea28991ee5a389d93551be90bc0e3ee3399109"
+      }
+    ],
+    "pop": [
+      {
+        "file": "pop.webp",
+        "size": [
+          616,
+          640
+        ],
+        "foot_anchor": [
+          285.9,
+          640
+        ],
+        "sha256": "be7dde27bded006f3e9b065556220f3f5b305547d815abc53d2d429056f4249a"
+      }
+    ],
+    "pretend": [
+      {
+        "file": "pretend.webp",
+        "size": [
+          638,
+          640
+        ],
+        "foot_anchor": [
+          312.6,
+          640
+        ],
+        "sha256": "b77f4bac92066efed5168ca43d32a70af5ed1852ccaabdd67d277448dc47f146"
+      }
+    ]
+  },
+  "blink": null,
+  "lines": {
+    "pop": [
+      "嘿嘿，GLM 不在吧？",
+      "偷偷溜进来～"
+    ],
+    "pretend": [
+      "（吧唧）把这里的价签全改成打折～",
+      "全场一折！（擅自）",
+      "（扒饭）吃饱了才有力气捣乱",
+      "GLM 回来会不会生气呀…"
+    ],
+    "caught": [
+      "哇！尾巴！别拽尾巴！",
+      "我、我只是路过！"
+    ],
+    "bye": [
+      "略略略～打折券留给你啦！",
+      "饭碗带走，溜了溜了～"
+    ],
+    "escape": [
+      "没人发现～价签都改好啦",
+      "嘿嘿，深藏功与名～"
+    ]
+  },
+  "behavior": {
+    "accent": "#3b5bb5",
+    "greeting": "",
+    "idle_actions": [],
+    "poke_pose": null,
+    "corrected_pose": null,
+    "long_think": null,
+    "fx": {
+      "pop": "priceDown",
+      "pretend": "priceDown"
+    },
+    "glyph": {}
+  },
+  "egg": {
+    "host": "glm",
+    "caption": "DeepSeek",
+    "aura": "#cfe0ff"
+  }
+}

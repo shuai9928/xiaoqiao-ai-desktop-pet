@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "id": "egg-deepseek",
+  "renderer": "static",
+  "version": 2,
+  "label": "GLM",
+  "theme": "deepseek",
+  "reference_size": [
+    826,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/egg-deepseek",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          523,
+          640
+        ],
+        "foot_anchor": [
+          231.4,
+          640
+        ],
+        "sha256": "4605fcb7edd4bc721483a75f332dbb2156bd9816703ac13d0946ed79bd4bb9fa"
+      }
+    ],
+    "caught": [
+      {
+        "file": "caught.webp",
+        "size": [
+          826,
+          640
+        ],
+        "foot_anchor": [
+          380.8,
+          640
+        ],
+        "sha256": "40466954b09695b96065820bddb59d8530ab50112e078b079076d0a634de46d9"
+      }
+    ],
+    "pop": [
+      {
+        "file": "pop.webp",
+        "size": [
+          591,
+          640
+        ],
+        "foot_anchor": [
+          289.0,
+          640
+        ],
+        "sha256": "da85c24dfbba071c4f84a3f3e708b1ccf7a17613d4c6532194b5b33810e14721"
+      }
+    ],
+    "pretend": [
+      {
+        "file": "pretend.webp",
+        "size": [
+          572,
+          640
+        ],
+        "foot_anchor": [
+          242.8,
+          640
+        ],
+        "sha256": "be023855144ace07ee57376bce861bb2c52d9094f5f62fa7a410015210a5ad0f"
+      }
+    ]
+  },
+  "blink": null,
+  "lines": {
+    "pop": [
+      "打扰啦～来比比成绩？",
+      "看，全是对勾哦～"
+    ],
+    "pretend": [
+      "这个设计……借我参考一下～",
+      "（偷偷记笔记）原来是这样做的呀",
+      "我才没有抄，是致敬～",
+      "鲸鱼的作业，看一眼就好～"
+    ],
+    "caught": [
+      "诶嘿～被发现了？",
+      "只、只是参考一下！"
+    ],
+    "bye": [
+      "笔记我就收下啦～下次见",
+      "下次再来交流学习～"
+    ],
+    "escape": [
+      "没人发现～笔记带走啦",
+      "嘘，就当我没来过～"
+    ]
+  },
+  "behavior": {
+    "accent": "#4b5a8a",
+    "greeting": "",
+    "idle_actions": [],
+    "poke_pose": null,
+    "corrected_pose": null,
+    "long_think": null,
+    "fx": {},
+    "glyph": {}
+  },
+  "egg": {
+    "host": "deepseek",
+    "caption": "GLM",
+    "aura": "#e3e6f0"
+  }
+}

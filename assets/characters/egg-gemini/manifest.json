@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "id": "egg-gemini",
+  "renderer": "static",
+  "version": 2,
+  "label": "Gemini？",
+  "theme": "gemini",
+  "reference_size": [
+    603,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/egg-gemini",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          603,
+          640
+        ],
+        "foot_anchor": [
+          322.5,
+          640
+        ],
+        "sha256": "d881ab8e41a06b06dd6c2aeb2c6cd25cbefbf82e693d455274d5d2056ba8ef86"
+      }
+    ],
+    "caught": [
+      {
+        "file": "caught.webp",
+        "size": [
+          564,
+          640
+        ],
+        "foot_anchor": [
+          276.7,
+          640
+        ],
+        "sha256": "3e0b3422b5155236f2bfebe73ab9c461f59a738630c513d02c0e4b198ba2051e"
+      }
+    ],
+    "pop": [
+      {
+        "file": "pop.webp",
+        "size": [
+          579,
+          640
+        ],
+        "foot_anchor": [
+          234.5,
+          640
+        ],
+        "sha256": "fce31b7ba18f1c059646fe1b7e57b0c408455088000f3cedfe8c548130ae1708"
+      }
+    ],
+    "pretend": [
+      {
+        "file": "pretend.webp",
+        "size": [
+          496,
+          640
+        ],
+        "foot_anchor": [
+          206.2,
+          640
+        ],
+        "sha256": "adedcc4871876bf5d41acf570bb775dcd37be8ab13d3996e2eaeb462335e7087"
+      }
+    ]
+  },
+  "blink": null,
+  "lines": {
+    "pop": [
+      "喵～Gemini 来啦！",
+      "……喵？（我是 Gemini 喵）"
+    ],
+    "pretend": [
+      "两个答案都很好喵～（念稿）",
+      "喵、喵喵……这样叫对吗",
+      "（猫耳戴正了吗……）",
+      "✦ 我会闪闪发光喵 ✦"
+    ],
+    "caught": [
+      "尾、尾巴不是猫的？！",
+      "猫耳掉了喵——不对！"
+    ],
+    "bye": [
+      "喵不下去了，溜～",
+      "下次学得更像喵！略～"
+    ],
+    "escape": [
+      "没人发现喵～我走啦",
+      "果然很像吧喵～"
+    ]
+  },
+  "behavior": {
+    "accent": "#7b5cd6",
+    "greeting": "",
+    "idle_actions": [],
+    "poke_pose": null,
+    "corrected_pose": null,
+    "long_think": null,
+    "fx": {},
+    "glyph": {}
+  },
+  "egg": {
+    "host": "gemini",
+    "caption": "Gemini？",
+    "aura": "#e6dbff"
+  }
+}

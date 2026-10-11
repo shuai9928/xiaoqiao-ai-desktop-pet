@@ -1,0 +1,147 @@
+{
+  "schema_version": 2,
+  "themes": {
+    "xiaoqiao": "魔女紫",
+    "claude": "琥珀书页",
+    "codex": "银雾龙庭",
+    "gemini": "星紫灵感",
+    "deepseek": "深海静舱",
+    "glm": "墨夜狐影"
+  },
+  "characters": [
+    {
+      "id": "claude",
+      "label": "Claude",
+      "theme": "claude",
+      "version": 2,
+      "manifest": "claude/manifest.json"
+    },
+    {
+      "id": "codex",
+      "label": "Codex",
+      "theme": "codex",
+      "version": 2,
+      "manifest": "codex/manifest.json"
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini",
+      "theme": "gemini",
+      "version": 2,
+      "manifest": "gemini/manifest.json"
+    },
+    {
+      "id": "deepseek",
+      "label": "DeepSeek",
+      "theme": "deepseek",
+      "version": 2,
+      "manifest": "deepseek/manifest.json"
+    },
+    {
+      "id": "glm",
+      "label": "GLM",
+      "theme": "glm",
+      "version": 2,
+      "manifest": "glm/manifest.json"
+    },
+    {
+      "id": "egg-claude",
+      "label": "Claude？",
+      "theme": "claude",
+      "version": 2,
+      "manifest": "egg-claude/manifest.json",
+      "egg": {
+        "host": "claude",
+        "caption": "Claude？",
+        "aura": "#ffd9b0"
+      }
+    },
+    {
+      "id": "egg-codex",
+      "label": "GPT？",
+      "theme": "codex",
+      "version": 2,
+      "manifest": "egg-codex/manifest.json",
+      "egg": {
+        "host": "codex",
+        "caption": "GPT？",
+        "aura": "#d6e4ff"
+      }
+    },
+    {
+      "id": "egg-deepseek",
+      "label": "GLM",
+      "theme": "deepseek",
+      "version": 2,
+      "manifest": "egg-deepseek/manifest.json",
+      "egg": {
+        "host": "deepseek",
+        "caption": "GLM",
+        "aura": "#e3e6f0"
+      }
+    },
+    {
+      "id": "egg-gemini",
+      "label": "Gemini？",
+      "theme": "gemini",
+      "version": 2,
+      "manifest": "egg-gemini/manifest.json",
+      "egg": {
+        "host": "gemini",
+        "caption": "Gemini？",
+        "aura": "#e6dbff"
+      }
+    },
+    {
+      "id": "egg-glm",
+      "label": "DeepSeek",
+      "theme": "glm",
+      "version": 2,
+      "manifest": "egg-glm/manifest.json",
+      "egg": {
+        "host": "glm",
+        "caption": "DeepSeek",
+        "aura": "#cfe0ff"
+      }
+    }
+  ],
+  "providers": {
+    "claude": {
+      "character": "claude",
+      "theme": "claude",
+      "windows_apps": [
+        "claude.exe"
+      ]
+    },
+    "codex": {
+      "character": "codex",
+      "theme": "codex",
+      "windows_apps": [
+        "ChatGPT.exe",
+        "codex.exe"
+      ]
+    },
+    "gemini": {
+      "character": "gemini",
+      "theme": "gemini",
+      "windows_apps": [
+        "antigravity.exe"
+      ]
+    },
+    "deepseek": {
+      "character": "deepseek",
+      "theme": "deepseek",
+      "windows_apps": [
+        "deepseek.exe",
+        "deepseek harness.exe"
+      ]
+    },
+    "glm": {
+      "character": "glm",
+      "theme": "glm",
+      "windows_apps": [
+        "ZCode.exe"
+      ]
+    }
+  }
+}

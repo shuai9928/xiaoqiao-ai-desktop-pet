@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "id": "egg-codex",
+  "renderer": "static",
+  "version": 2,
+  "label": "GPT？",
+  "theme": "codex",
+  "reference_size": [
+    622,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/egg-gpt",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          568,
+          640
+        ],
+        "foot_anchor": [
+          196.3,
+          640
+        ],
+        "sha256": "18188963e3f78b597e582df47651088f13db4cc0169c49cb946c386b738dba96"
+      }
+    ],
+    "caught": [
+      {
+        "file": "caught.webp",
+        "size": [
+          622,
+          640
+        ],
+        "foot_anchor": [
+          285.8,
+          640
+        ],
+        "sha256": "c93e144fd97f5528ee0047c3820cb3859a3f145d7dfe3e071e2a8ecb800a9597"
+      }
+    ],
+    "pop": [
+      {
+        "file": "pop.webp",
+        "size": [
+          548,
+          640
+        ],
+        "foot_anchor": [
+          243.6,
+          640
+        ],
+        "sha256": "59f6f49ebcb5274066c5c93d6ee7a645c9dfd11d3315824050aa4449b4d0b84e"
+      }
+    ],
+    "pretend": [
+      {
+        "file": "pretend.webp",
+        "size": [
+          538,
+          640
+        ],
+        "foot_anchor": [
+          235.8,
+          640
+        ],
+        "sha256": "cf6fe4afc862a3b53b504d81baf4163a5c4a9513a1160e2d5efa899a31208ae6"
+      }
+    ]
+  },
+  "blink": null,
+  "lines": {
+    "pop": [
+      "本龙登场！",
+      "……咳，我是 GPT。"
+    ],
+    "pretend": [
+      "……哼，交给我吧。（憋笑）",
+      "冷静、成熟、御姐……噗。",
+      "（尾巴藏好了吗……）",
+      "……本龙很冷静。"
+    ],
+    "caught": [
+      "角、角掉了！",
+      "这、这是真角！！"
+    ],
+    "bye": [
+      "这个发箍不好用啦～",
+      "下次换个更像的！略～"
+    ],
+    "escape": [
+      "没人发现～本龙走了！",
+      "果然很像吧～溜啦"
+    ]
+  },
+  "behavior": {
+    "accent": "#7a8fa8",
+    "greeting": "",
+    "idle_actions": [],
+    "poke_pose": null,
+    "corrected_pose": null,
+    "long_think": null,
+    "fx": {},
+    "glyph": {}
+  },
+  "egg": {
+    "host": "codex",
+    "caption": "GPT？",
+    "aura": "#d6e4ff"
+  }
+}

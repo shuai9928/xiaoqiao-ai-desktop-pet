@@ -1,0 +1,770 @@
+{
+  "schema_version": 2,
+  "id": "glm",
+  "renderer": "static",
+  "version": 2,
+  "label": "GLM",
+  "theme": "glm",
+  "reference_size": [
+    562,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/glm",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "asking": [
+      {
+        "file": "asking.webp",
+        "size": [
+          502,
+          640
+        ],
+        "foot_anchor": [
+          228.2,
+          640
+        ],
+        "sha256": "8a4540b691393f20406416f1ceefd8a19cdc29dc37509e867032d8c8ad45b2c3"
+      }
+    ],
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          547,
+          640
+        ],
+        "foot_anchor": [
+          254.4,
+          640
+        ],
+        "sha256": "62c34f1c3919f303a587fa2c11b98a7fe6e72dbc93729cbc471b6db5ae26f115"
+      }
+    ],
+    "compact": [
+      {
+        "file": "compact.webp",
+        "size": [
+          545,
+          640
+        ],
+        "foot_anchor": [
+          268.6,
+          640
+        ],
+        "sha256": "8820ef3b3656557d663450ce78a5796b72392f7050c295a17c0a422cdd99e5ff"
+      }
+    ],
+    "delegating": [
+      {
+        "file": "delegating.webp",
+        "size": [
+          642,
+          640
+        ],
+        "foot_anchor": [
+          360.9,
+          640
+        ],
+        "sha256": "08a1ac68797295fff761de5ce063ef0f0ae05e7b6e5b30efbbdead0992d33bae"
+      }
+    ],
+    "drawing": [
+      {
+        "file": "drawing.webp",
+        "size": [
+          508,
+          640
+        ],
+        "foot_anchor": [
+          249.9,
+          640
+        ],
+        "sha256": "f3036d3e8ca7c7c163612a913bdcc36c9f7dbe9e049abf93b9582996f6da9bed"
+      }
+    ],
+    "fest_christmas": [
+      {
+        "file": "fest_christmas.webp",
+        "size": [
+          508,
+          640
+        ],
+        "foot_anchor": [
+          251.6,
+          640
+        ],
+        "sha256": "d92933f41b10d39f86cd8f390572e7e565b0ccf3f314001262caa38697ad6bfc"
+      }
+    ],
+    "fest_dragonboat": [
+      {
+        "file": "fest_dragonboat.webp",
+        "size": [
+          538,
+          640
+        ],
+        "foot_anchor": [
+          268.8,
+          640
+        ],
+        "sha256": "891bbd3c2e2c38ea015612860f30d139812866990932e663d271ef54ac9a62da"
+      }
+    ],
+    "fest_halloween": [
+      {
+        "file": "fest_halloween.webp",
+        "size": [
+          536,
+          640
+        ],
+        "foot_anchor": [
+          264.2,
+          640
+        ],
+        "sha256": "f98042a238ca5718edaf1e53151a285488288fe82b2d1f0eb3194674d2510763"
+      }
+    ],
+    "fest_lantern": [
+      {
+        "file": "fest_lantern.webp",
+        "size": [
+          542,
+          640
+        ],
+        "foot_anchor": [
+          270.8,
+          640
+        ],
+        "sha256": "15503c283d293d38e5dc2341d93b11c62a4194098168a8d979e96f84a73e4d74"
+      }
+    ],
+    "fest_midautumn": [
+      {
+        "file": "fest_midautumn.webp",
+        "size": [
+          525,
+          640
+        ],
+        "foot_anchor": [
+          246.9,
+          640
+        ],
+        "sha256": "bbb4b1d30a6cdc569d6952d6be197d4caad3a087b3a485d6f86ff1b59e44d8af"
+      }
+    ],
+    "fest_national": [
+      {
+        "file": "fest_national.webp",
+        "size": [
+          526,
+          640
+        ],
+        "foot_anchor": [
+          255.9,
+          640
+        ],
+        "sha256": "8e27d3631d7b5385bae69ad2c1193710dbba14e0110010f9ddb8bb66df0d76df"
+      }
+    ],
+    "fest_newyear": [
+      {
+        "file": "fest_newyear.webp",
+        "size": [
+          519,
+          640
+        ],
+        "foot_anchor": [
+          251.3,
+          640
+        ],
+        "sha256": "c28f9dc4481a01e9a6a5fa88d1bec3c0eba93b41f83ee64caa4ada7cec3e8e72"
+      }
+    ],
+    "fest_spring": [
+      {
+        "file": "fest_spring.webp",
+        "size": [
+          528,
+          640
+        ],
+        "foot_anchor": [
+          260.0,
+          640
+        ],
+        "sha256": "e647e67f5d1ede596c5cd09aa66de10ad33f2a76a1eaaeadc9f9084470766673"
+      }
+    ],
+    "greet_afternoon": [
+      {
+        "file": "greet_afternoon.webp",
+        "size": [
+          532,
+          640
+        ],
+        "foot_anchor": [
+          266.8,
+          640
+        ],
+        "sha256": "8ac208aa438ac2600050a60733d8fcd48ff623fa1f30c3ddfa564b6138a11b1f"
+      }
+    ],
+    "greet_dawn": [
+      {
+        "file": "greet_dawn.webp",
+        "size": [
+          510,
+          640
+        ],
+        "foot_anchor": [
+          235.2,
+          640
+        ],
+        "sha256": "d6360297acd81416141b7be1aaf6f02584b8b0e4204f4122578639ffc6260a4e"
+      }
+    ],
+    "greet_evening": [
+      {
+        "file": "greet_evening.webp",
+        "size": [
+          526,
+          640
+        ],
+        "foot_anchor": [
+          257.9,
+          640
+        ],
+        "sha256": "644e1883275bac36ac555123948e2fd9fdca38075a15b556f8ab0086dc8edb0f"
+      }
+    ],
+    "greet_morning": [
+      {
+        "file": "greet_morning.webp",
+        "size": [
+          544,
+          640
+        ],
+        "foot_anchor": [
+          265.9,
+          640
+        ],
+        "sha256": "0d5392416b5ba53d89ac0d43b00ec339d2de1fa914ae93cde50ad506eaba0280"
+      }
+    ],
+    "greet_night": [
+      {
+        "file": "greet_night.webp",
+        "size": [
+          519,
+          640
+        ],
+        "foot_anchor": [
+          253.0,
+          640
+        ],
+        "sha256": "70abfae2685a1c364c4f1973bfad5ac153a64d1836c8948086b988d19044f158"
+      }
+    ],
+    "greet_noon": [
+      {
+        "file": "greet_noon.webp",
+        "size": [
+          507,
+          640
+        ],
+        "foot_anchor": [
+          244.3,
+          640
+        ],
+        "sha256": "f9c95e8f9896378974f0a5953747b775fa29ed5b7ff3a12cb46e3f32f9abca63"
+      }
+    ],
+    "happy": [
+      {
+        "file": "happy.webp",
+        "size": [
+          569,
+          640
+        ],
+        "foot_anchor": [
+          259.7,
+          640
+        ],
+        "sha256": "60ad4da1fd9064c3dc6e989b7fb1bdbd6e5be792b68f0e8880c2004069bbcb7d"
+      }
+    ],
+    "hum": [
+      {
+        "file": "hum.webp",
+        "size": [
+          516,
+          640
+        ],
+        "foot_anchor": [
+          251.6,
+          640
+        ],
+        "sha256": "6930653fa8f6efe081812d79a89438e9b8cd4178f80bf5ac34b2ad02f9443d88"
+      }
+    ],
+    "idle": [
+      {
+        "file": "idle-2.webp",
+        "size": [
+          528,
+          640
+        ],
+        "foot_anchor": [
+          255.7,
+          640
+        ],
+        "sha256": "bb9babc29fa2afc762f4e8964b984cfcc2100db49d3a40ab0be0e076ce549cf6"
+      },
+      {
+        "file": "idle-3.webp",
+        "size": [
+          503,
+          640
+        ],
+        "foot_anchor": [
+          240.9,
+          640
+        ],
+        "sha256": "296297d1fdca2233c41ce345a84942052fc2eed49e01fff3791c58a6eff75bc8"
+      },
+      {
+        "file": "idle.webp",
+        "size": [
+          576,
+          640
+        ],
+        "foot_anchor": [
+          284.3,
+          640
+        ],
+        "sha256": "2288383c1073628c6f46f7de083ed92a076e07f5fbf991de6212a190f4fef806"
+      }
+    ],
+    "listening": [
+      {
+        "file": "listening.webp",
+        "size": [
+          513,
+          640
+        ],
+        "foot_anchor": [
+          247.3,
+          640
+        ],
+        "sha256": "8dc71f54c772a68983416b378a0a62d41168e26ab815c0885fc4f03f45fa2148"
+      }
+    ],
+    "masked": [
+      {
+        "file": "masked.webp",
+        "size": [
+          520,
+          640
+        ],
+        "foot_anchor": [
+          251.0,
+          640
+        ],
+        "sha256": "bbee3b1c31cbfe3a95b494c6cdc3e3d8c98b92faa33e718a93f1f7b935b0bf2d"
+      }
+    ],
+    "oops": [
+      {
+        "file": "oops.webp",
+        "size": [
+          503,
+          640
+        ],
+        "foot_anchor": [
+          243.6,
+          640
+        ],
+        "sha256": "16e6f917b6ea223b2b4f988f0cf018c6228193cd4efb4d55c3c5bbf946575787"
+      }
+    ],
+    "pat": [
+      {
+        "file": "pat.webp",
+        "size": [
+          516,
+          640
+        ],
+        "foot_anchor": [
+          238.6,
+          640
+        ],
+        "sha256": "6b190237fa683b6dbc269c3e76c5bbd909c3b471a9d0cab739f850507b4c2e14"
+      }
+    ],
+    "pricetag": [
+      {
+        "file": "pricetag.webp",
+        "size": [
+          537,
+          640
+        ],
+        "foot_anchor": [
+          263.5,
+          640
+        ],
+        "sha256": "683c0023b7b60506fca1362278204731efc2529ae8fd8035ccc89d53f8986b46"
+      }
+    ],
+    "proud": [
+      {
+        "file": "proud.webp",
+        "size": [
+          570,
+          640
+        ],
+        "foot_anchor": [
+          258.1,
+          640
+        ],
+        "sha256": "2930cf3e0b17177ea99869fdc5af56a72671556d9bbc801996883fcaff876680"
+      }
+    ],
+    "reading": [
+      {
+        "file": "reading.webp",
+        "size": [
+          509,
+          640
+        ],
+        "foot_anchor": [
+          248.6,
+          640
+        ],
+        "sha256": "e765495102c1b2706bbe1e29d56cbcd3ba054640786bdec58df1917ecc242baf"
+      }
+    ],
+    "running": [
+      {
+        "file": "running.webp",
+        "size": [
+          570,
+          640
+        ],
+        "foot_anchor": [
+          261.7,
+          640
+        ],
+        "sha256": "7a4161ffad5966c7db521fbe85c687c87b92fa56bbbac45dba8970ea9076c57a"
+      }
+    ],
+    "searching": [
+      {
+        "file": "searching.webp",
+        "size": [
+          533,
+          640
+        ],
+        "foot_anchor": [
+          263.1,
+          640
+        ],
+        "sha256": "2d6a4bf2e7cea8d9aa20cd8fb3b3a000adb2258392dfe2fad47256d6504d136d"
+      }
+    ],
+    "sleeping": [
+      {
+        "file": "sleeping.webp",
+        "size": [
+          519,
+          640
+        ],
+        "foot_anchor": [
+          256.4,
+          640
+        ],
+        "sha256": "38ab875e2015fc0942889fc654832a12ecb2c0e3feb78edc987b1d1d8069a6af"
+      }
+    ],
+    "soldout": [
+      {
+        "file": "soldout.webp",
+        "size": [
+          508,
+          640
+        ],
+        "foot_anchor": [
+          248.9,
+          640
+        ],
+        "sha256": "509250e094bba2caf5fb0313e3d18e9757abc31a0ed37a14ebb51810af528e19"
+      }
+    ],
+    "stretch": [
+      {
+        "file": "stretch.webp",
+        "size": [
+          498,
+          640
+        ],
+        "foot_anchor": [
+          237.9,
+          640
+        ],
+        "sha256": "53617b190b8d0e09492e5af95a93607636c94bc7af9e1fe6d44e677f06160aca"
+      }
+    ],
+    "surprised": [
+      {
+        "file": "surprised.webp",
+        "size": [
+          547,
+          640
+        ],
+        "foot_anchor": [
+          241.4,
+          640
+        ],
+        "sha256": "1b9817b0c69d666cc741fdfd28f8997656e05406a57ef622ca38027b539bb8a6"
+      }
+    ],
+    "thinking": [
+      {
+        "file": "thinking.webp",
+        "size": [
+          530,
+          640
+        ],
+        "foot_anchor": [
+          259.3,
+          640
+        ],
+        "sha256": "ed5644f0b4f1a8018198f94d3bfeabcc7c2a5d6a04f17c08c1d3e25cfa11af1c"
+      }
+    ],
+    "tired": [
+      {
+        "file": "tired.webp",
+        "size": [
+          580,
+          640
+        ],
+        "foot_anchor": [
+          254.9,
+          640
+        ],
+        "sha256": "dd70bc8f277f59b6828a46e0f0078cf68842e682e619e0bdc4fb6749d110e604"
+      }
+    ],
+    "update": [
+      {
+        "file": "update.webp",
+        "size": [
+          545,
+          640
+        ],
+        "foot_anchor": [
+          241.1,
+          640
+        ],
+        "sha256": "e8c217b2a599b7645b1527b1ee8e9b8ecc682b4a59d551521fefe085e9b442cb"
+      }
+    ],
+    "writing": [
+      {
+        "file": "writing.webp",
+        "size": [
+          562,
+          640
+        ],
+        "foot_anchor": [
+          279.5,
+          640
+        ],
+        "sha256": "e2729bdfade9a40d52b9d64c6ce037c20dc401a573987720bb691c6416a17522"
+      }
+    ],
+    "yawn": [
+      {
+        "file": "yawn.webp",
+        "size": [
+          550,
+          640
+        ],
+        "foot_anchor": [
+          267.3,
+          640
+        ],
+        "sha256": "fd93212b3c1aa984a1d866bbf673fd57cac471bfc649476af6b0753d0a302321"
+      }
+    ]
+  },
+  "blink": null,
+  "lines": {
+    "idle": [
+      "（尾巴慢慢晃）",
+      "……嗯哼？",
+      "（叮铃）"
+    ],
+    "listening": [
+      "请说～我在听哦",
+      "这单我接了～"
+    ],
+    "thinking": [
+      "让我算一算…",
+      "嗯…这个值多少呢"
+    ],
+    "reading": [
+      "清华出身，这点资料小意思",
+      "翻翻看～"
+    ],
+    "writing": [
+      "记下来，记账也记下来",
+      "写好啦…差不多"
+    ],
+    "running": [
+      "开工开工～",
+      "交给我，包你满意"
+    ],
+    "searching": [
+      "闻到线索了～",
+      "查一下"
+    ],
+    "delegating": [
+      "小狐狸们，出发～"
+    ],
+    "happy": [
+      "搞定～（眨眼）",
+      "物超所值吧？"
+    ],
+    "proud": [
+      "其实一直是我哦～",
+      "神秘模型，揭晓！"
+    ],
+    "oops": [
+      "啊哈哈…刚才那个不算",
+      "被、被限流了…"
+    ],
+    "surprised": [
+      "呜哇！"
+    ],
+    "pat": [
+      "……再摸要收费了哦",
+      "（尾巴出卖了她）"
+    ],
+    "sleeping": [
+      "zZ…（眼罩拉下来了）"
+    ],
+    "tired": [
+      "今天的额度…用完了…",
+      "算力不够了…"
+    ],
+    "hum": [
+      "♪ 叮铃叮铃～"
+    ],
+    "stretch": [
+      "伸个懒腰～"
+    ],
+    "yawn": [
+      "呼啊…"
+    ],
+    "drawing": [
+      "画一张，收费另算"
+    ],
+    "compact": [
+      "全都塞进去，一点都不浪费"
+    ],
+    "asking": [
+      "这个你来定哦～",
+      "选哪个呢？（笑）"
+    ],
+    "pricetag": [
+      "嘘…你什么都没看到",
+      "只是…结构性调整而已～"
+    ],
+    "masked": [
+      "我只是一个神秘的新模型～",
+      "GLM？不认识哦"
+    ],
+    "soldout": [
+      "又卖光啦～",
+      "抢不到也没办法呢"
+    ],
+    "greet_morning": [
+      "早上好～今天也请多多关照（笑）",
+      "早呀，咖啡和书都准备好了"
+    ],
+    "greet_noon": [
+      "一边吃饭一边看书，不冲突哦",
+      "中午好～（叮铃）"
+    ],
+    "greet_afternoon": [
+      "下午好～有什么难题，交给我吧",
+      "下午茶时间，一起来一杯？"
+    ],
+    "greet_evening": [
+      "晚上好～今天的成绩还不错呢",
+      "点上狐狸灯笼～晚上好"
+    ],
+    "greet_night": [
+      "深夜模式启动～（悄悄推上眼罩）",
+      "这么晚还一起忙，有点像共犯呢（笑）"
+    ],
+    "greet_dawn": [
+      "（眼罩拉下一半）还在哦，只是眯一下",
+      "嘘，这是只有我们知道的时间"
+    ],
+    "fest_halloween": [
+      "万圣节快乐～面具下面是谁呢？（笑）",
+      "不给糖的话……那就给我讲个故事吧"
+    ],
+    "fest_christmas": [
+      "圣诞快乐～礼物给你，拆开看看？",
+      "圣诞快乐～铃铛响了哦（叮铃）"
+    ],
+    "fest_newyear": [
+      "新年快乐～今年的计划，我已经写好了哦",
+      "新的一年，也请多多关照（笑）"
+    ],
+    "fest_spring": [
+      "新年好～红包给你，图个吉利",
+      "过年好～恭喜恭喜"
+    ],
+    "fest_lantern": [
+      "元宵快乐～狐狸灯好看吗？",
+      "元宵节快乐～灯谜我全猜中了哦"
+    ],
+    "fest_dragonboat": [
+      "端午安康～粽子配书，刚刚好",
+      "端午安康～（叮铃）"
+    ],
+    "fest_midautumn": [
+      "中秋快乐～月亮和我，哪个更神秘？",
+      "中秋快乐～今晚适合赏月呢"
+    ],
+    "fest_national": [
+      "国庆快乐～我也出去走走",
+      "假期快乐～车票已经买好了哦"
+    ],
+    "bye": [
+      "那我先溜啦～（眨眼）",
+      "下次见～记得想我哦"
+    ]
+  },
+  "behavior": {
+    "accent": "#4b5a8a",
+    "greeting": "GLM 来啦～今天也请多多关照（笑）",
+    "idle_actions": [
+      "masked",
+      "soldout"
+    ],
+    "poke_pose": "pricetag",
+    "corrected_pose": null,
+    "long_think": null,
+    "fx": {
+      "proud": "victory"
+    },
+    "glyph": {
+      "fill": "#2b3a6b"
+    }
+  }
+}

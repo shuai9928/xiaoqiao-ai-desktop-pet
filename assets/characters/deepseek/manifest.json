@@ -1,0 +1,839 @@
+{
+  "schema_version": 2,
+  "id": "deepseek",
+  "renderer": "static",
+  "version": 2,
+  "label": "DeepSeek",
+  "theme": "deepseek",
+  "reference_size": [
+    587,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/deepseek",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "asking": [
+      {
+        "file": "asking.webp",
+        "size": [
+          569,
+          640
+        ],
+        "foot_anchor": [
+          261.4,
+          640
+        ],
+        "sha256": "4da851e1ad9cd335d5340c9552867b909bfafae02e0daee591f7e17ab514b2f5"
+      }
+    ],
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          522,
+          640
+        ],
+        "foot_anchor": [
+          203.8,
+          640
+        ],
+        "sha256": "bd08b0fd43e738f7728c13c30b8f940d11ae44f76fb3c513c2ae83bf966ee289"
+      }
+    ],
+    "compact": [
+      {
+        "file": "compact.webp",
+        "size": [
+          554,
+          640
+        ],
+        "foot_anchor": [
+          220.7,
+          640
+        ],
+        "sha256": "34cec742124b9027a29bb9b3bb4b791c6ae4d6ff2a55e0edaffc1d4e12413546"
+      }
+    ],
+    "deepthink": [
+      {
+        "file": "deepthink.webp",
+        "size": [
+          498,
+          640
+        ],
+        "foot_anchor": [
+          248.3,
+          640
+        ],
+        "sha256": "e40c783586bc6ea83a85d365148fa23df03eb944562a83842719ac3cd5a8a56c"
+      }
+    ],
+    "delegating": [
+      {
+        "file": "delegating.webp",
+        "size": [
+          680,
+          640
+        ],
+        "foot_anchor": [
+          331.0,
+          640
+        ],
+        "sha256": "f3d5c8c3245fc84f0c215b7e5af7862e7d8dd4ecfa53afbe96a2aa4cb6e090ab"
+      }
+    ],
+    "drawing": [
+      {
+        "file": "drawing.webp",
+        "size": [
+          575,
+          640
+        ],
+        "foot_anchor": [
+          259.2,
+          640
+        ],
+        "sha256": "19af84e556745bc7252446ae06531783eb1f0a70bd844657cad4b4b26737643f"
+      }
+    ],
+    "eat": [
+      {
+        "file": "eat.webp",
+        "size": [
+          578,
+          640
+        ],
+        "foot_anchor": [
+          266.1,
+          640
+        ],
+        "sha256": "7df6e8de6e1753c8184f99943e98d225bc6cc4ec355974bbcbcee1f59f404074"
+      }
+    ],
+    "feast": [
+      {
+        "file": "feast.webp",
+        "size": [
+          578,
+          640
+        ],
+        "foot_anchor": [
+          283.1,
+          640
+        ],
+        "sha256": "28f170874e9514bbb84f887015aebfb7cd40201cfeabca4ef8f11c074cd1c507"
+      }
+    ],
+    "fest_christmas": [
+      {
+        "file": "fest_christmas.webp",
+        "size": [
+          568,
+          640
+        ],
+        "foot_anchor": [
+          272.7,
+          640
+        ],
+        "sha256": "bc56ff38960d9e7abb0fb82cf000c85f65f4e78166ba1e58ced434affc9851bb"
+      }
+    ],
+    "fest_dragonboat": [
+      {
+        "file": "fest_dragonboat.webp",
+        "size": [
+          591,
+          640
+        ],
+        "foot_anchor": [
+          267.7,
+          640
+        ],
+        "sha256": "d7db4a41dea093323f200ff7de16ce879c6ff62c81b45be844b1ba5591eec6a0"
+      }
+    ],
+    "fest_halloween": [
+      {
+        "file": "fest_halloween.webp",
+        "size": [
+          573,
+          640
+        ],
+        "foot_anchor": [
+          255.3,
+          640
+        ],
+        "sha256": "b430148e6233d4b83017d2c3f4d681ef0b94d38375a3f55e255bff30e803e990"
+      }
+    ],
+    "fest_lantern": [
+      {
+        "file": "fest_lantern.webp",
+        "size": [
+          565,
+          640
+        ],
+        "foot_anchor": [
+          253.7,
+          640
+        ],
+        "sha256": "f2de5c8c3a8a9c3d4418afccd78a64296e4f89fbedb650aee3142be674343470"
+      }
+    ],
+    "fest_midautumn": [
+      {
+        "file": "fest_midautumn.webp",
+        "size": [
+          578,
+          640
+        ],
+        "foot_anchor": [
+          261.5,
+          640
+        ],
+        "sha256": "69c267012b56b77694da6ac07003809ee0bb75d406e76259132128ebac268797"
+      }
+    ],
+    "fest_national": [
+      {
+        "file": "fest_national.webp",
+        "size": [
+          565,
+          640
+        ],
+        "foot_anchor": [
+          237.1,
+          640
+        ],
+        "sha256": "77716122143a165ed18f2329f1f010b07406dd46a3de5fe48f923b8670981664"
+      }
+    ],
+    "fest_newyear": [
+      {
+        "file": "fest_newyear.webp",
+        "size": [
+          576,
+          640
+        ],
+        "foot_anchor": [
+          268.8,
+          640
+        ],
+        "sha256": "907c5a7eb0657cd2b706f9f820f8c11d624b22657267666c2ea31beb546241cb"
+      }
+    ],
+    "fest_spring": [
+      {
+        "file": "fest_spring.webp",
+        "size": [
+          561,
+          640
+        ],
+        "foot_anchor": [
+          255.9,
+          640
+        ],
+        "sha256": "2060ef3c55dc7204264a8435ada17553b533f47971901f6ddc6c069a9e1b8d2a"
+      }
+    ],
+    "greet_afternoon": [
+      {
+        "file": "greet_afternoon.webp",
+        "size": [
+          564,
+          640
+        ],
+        "foot_anchor": [
+          259.2,
+          640
+        ],
+        "sha256": "dca324e62d22252eb43d31ac9a42f3527c98a6e1d3bf77f27723574732343c51"
+      }
+    ],
+    "greet_dawn": [
+      {
+        "file": "greet_dawn.webp",
+        "size": [
+          577,
+          640
+        ],
+        "foot_anchor": [
+          265.1,
+          640
+        ],
+        "sha256": "ab65ae85d5a01dade4e420c5233d5b0654e3e993496754d14271ce8cd077abef"
+      }
+    ],
+    "greet_evening": [
+      {
+        "file": "greet_evening.webp",
+        "size": [
+          566,
+          640
+        ],
+        "foot_anchor": [
+          255.2,
+          640
+        ],
+        "sha256": "16eff9cf271bbbcdd8282c0957b756edb0608a5966db78dd809f057bf65b58f8"
+      }
+    ],
+    "greet_morning": [
+      {
+        "file": "greet_morning.webp",
+        "size": [
+          550,
+          640
+        ],
+        "foot_anchor": [
+          237.7,
+          640
+        ],
+        "sha256": "de45785189c03b943d714f6a9a0c8c3aadf04637c9bec213f2a569c8ac1a4463"
+      }
+    ],
+    "greet_night": [
+      {
+        "file": "greet_night.webp",
+        "size": [
+          571,
+          640
+        ],
+        "foot_anchor": [
+          259.6,
+          640
+        ],
+        "sha256": "1e88669ad27c61132426e10f4e9be286118dfe811e730142db6a828f689dde03"
+      }
+    ],
+    "greet_noon": [
+      {
+        "file": "greet_noon.webp",
+        "size": [
+          562,
+          640
+        ],
+        "foot_anchor": [
+          253.2,
+          640
+        ],
+        "sha256": "30943eb39b359f0af836372bfe641fa052e5c329ff2aaee72f1af511281a2871"
+      }
+    ],
+    "happy": [
+      {
+        "file": "happy.webp",
+        "size": [
+          581,
+          640
+        ],
+        "foot_anchor": [
+          270.3,
+          640
+        ],
+        "sha256": "944c36b4fe92a87fc30cf6742a32a7b370dddd35544c6def5af8d349f94f26e1"
+      }
+    ],
+    "hum": [
+      {
+        "file": "hum.webp",
+        "size": [
+          553,
+          640
+        ],
+        "foot_anchor": [
+          248.1,
+          640
+        ],
+        "sha256": "028fbedad2181679262f35e3552aefcd2d712f01db66d7a8360ea974ae0b2ef3"
+      }
+    ],
+    "idle": [
+      {
+        "file": "idle-2.webp",
+        "size": [
+          559,
+          640
+        ],
+        "foot_anchor": [
+          244.9,
+          640
+        ],
+        "sha256": "86f402fe05b64101b3383b375ce5b4ec19e493c46204953f32b73b74f730c2bc"
+      },
+      {
+        "file": "idle-3.webp",
+        "size": [
+          563,
+          640
+        ],
+        "foot_anchor": [
+          248.1,
+          640
+        ],
+        "sha256": "eb81d12fb55acef9087c60a7533da2e1208b0af0d438dbe10a7a843a1a7219c7"
+      },
+      {
+        "file": "idle.webp",
+        "size": [
+          616,
+          640
+        ],
+        "foot_anchor": [
+          274.6,
+          640
+        ],
+        "sha256": "34246c3b93ea718fb3b30dca2243f19864269f66a77e3d3b31a463ea6b187b42"
+      }
+    ],
+    "listening": [
+      {
+        "file": "listening.webp",
+        "size": [
+          577,
+          640
+        ],
+        "foot_anchor": [
+          260.2,
+          640
+        ],
+        "sha256": "aabafe18fd26a5fbbbc43081c89dac23d316ba5faa438cb6b3a945d04e0951e9"
+      }
+    ],
+    "oops": [
+      {
+        "file": "oops.webp",
+        "size": [
+          552,
+          640
+        ],
+        "foot_anchor": [
+          261.2,
+          640
+        ],
+        "sha256": "6df6dd565c36c933f5ab18490dba21691ad2319a9a16eee44ac3a13542ee0136"
+      }
+    ],
+    "pat": [
+      {
+        "file": "pat.webp",
+        "size": [
+          581,
+          640
+        ],
+        "foot_anchor": [
+          259.9,
+          640
+        ],
+        "sha256": "ad4dbe3232e6251dca7aabf19efc0c02a9df08259249787328fd84d9ed228b9b"
+      }
+    ],
+    "pout": [
+      {
+        "file": "pout.webp",
+        "size": [
+          554,
+          640
+        ],
+        "foot_anchor": [
+          239.0,
+          640
+        ],
+        "sha256": "1b76c6cd3255f79d27e1e7572a15206c3df30206892bec08733544565c1a7e21"
+      }
+    ],
+    "proud": [
+      {
+        "file": "proud.webp",
+        "size": [
+          495,
+          640
+        ],
+        "foot_anchor": [
+          243.3,
+          640
+        ],
+        "sha256": "da371856e4d60c63d23f4b7a02d540770e1910c74ccbd14030bbfc4d28be89d2"
+      }
+    ],
+    "reading": [
+      {
+        "file": "reading.webp",
+        "size": [
+          575,
+          640
+        ],
+        "foot_anchor": [
+          254.1,
+          640
+        ],
+        "sha256": "4d32f9b546a3061fac9da395b16d86221469df61fbab6b8ebf4e349d2f1eff19"
+      }
+    ],
+    "running": [
+      {
+        "file": "running.webp",
+        "size": [
+          587,
+          640
+        ],
+        "foot_anchor": [
+          265.8,
+          640
+        ],
+        "sha256": "8f19880f9fd9976539a352da9c0bb2f6d61c059f2c8ecd00f2cb2895732311b5"
+      }
+    ],
+    "searching": [
+      {
+        "file": "searching.webp",
+        "size": [
+          585,
+          640
+        ],
+        "foot_anchor": [
+          263.0,
+          640
+        ],
+        "sha256": "3035154e193ec8f3800b8c2f11542f08ed7178d2ab3e6952f89ac8e729ce03aa"
+      }
+    ],
+    "slack": [
+      {
+        "file": "slack.webp",
+        "size": [
+          681,
+          640
+        ],
+        "foot_anchor": [
+          296.7,
+          640
+        ],
+        "sha256": "0627c36c680af14333a5f89809be08c45aeb433721515e525ecb4fb7992c4e42"
+      }
+    ],
+    "sleeping": [
+      {
+        "file": "sleeping.webp",
+        "size": [
+          555,
+          640
+        ],
+        "foot_anchor": [
+          236.5,
+          640
+        ],
+        "sha256": "b1f11d7426cd99ce4bb92e7ff84cfe6e78c91eeb09720e91b3d95a3ade0cdf50"
+      }
+    ],
+    "stretch": [
+      {
+        "file": "stretch.webp",
+        "size": [
+          561,
+          640
+        ],
+        "foot_anchor": [
+          252.8,
+          640
+        ],
+        "sha256": "83ed308810c2e96f19c575f115ec83e72a77a0777e9f8300714ef4a9264c6cf5"
+      }
+    ],
+    "surprised": [
+      {
+        "file": "surprised.webp",
+        "size": [
+          565,
+          640
+        ],
+        "foot_anchor": [
+          252.9,
+          640
+        ],
+        "sha256": "a401de0f260800df64a95f518bc73090e9f3d13d2e17ccd3cb4e79bcca1964de"
+      }
+    ],
+    "swim": [
+      {
+        "file": "swim.webp",
+        "size": [
+          695,
+          640
+        ],
+        "foot_anchor": [
+          265.3,
+          640
+        ],
+        "sha256": "095c58b7bb997d42d082a6ed829e59975dc18c7f1fb0c5b30e18b63d8a8f8525"
+      }
+    ],
+    "thinking": [
+      {
+        "file": "thinking.webp",
+        "size": [
+          563,
+          640
+        ],
+        "foot_anchor": [
+          246.6,
+          640
+        ],
+        "sha256": "6da0031b6d502239441746d2fd6fa751c56b96ad655041e7dd4589897c96571e"
+      }
+    ],
+    "tired": [
+      {
+        "file": "tired.webp",
+        "size": [
+          572,
+          640
+        ],
+        "foot_anchor": [
+          246.8,
+          640
+        ],
+        "sha256": "acbed19806c89736e2125783f9569df08b190240c8d7a7451351ec394a8806c8"
+      }
+    ],
+    "update": [
+      {
+        "file": "update.webp",
+        "size": [
+          551,
+          640
+        ],
+        "foot_anchor": [
+          250.7,
+          640
+        ],
+        "sha256": "421cd55fe8836a561e2066b23e435d604f84af292cd1293c218395d4e0131624"
+      }
+    ],
+    "writing": [
+      {
+        "file": "writing.webp",
+        "size": [
+          588,
+          640
+        ],
+        "foot_anchor": [
+          264.7,
+          640
+        ],
+        "sha256": "2aa91924b6e6ffb157e6001fbf20780f24c5ed250bc053964864f79eaf8167c2"
+      }
+    ],
+    "yawn": [
+      {
+        "file": "yawn.webp",
+        "size": [
+          581,
+          640
+        ],
+        "foot_anchor": [
+          259.1,
+          640
+        ],
+        "sha256": "237826974b6adfbc1e8b2619c0eef806cc5f75271049908f93ac0d36e804aa35"
+      }
+    ]
+  },
+  "blink": {
+    "file": "idle-blink.webp",
+    "size": [
+      616,
+      640
+    ],
+    "foot_anchor": [
+      274.6,
+      640
+    ],
+    "sha256": "150fb97ed6e98147d00322dbccae715e53f7aede2449798b499ef6508997b924",
+    "base": "idle.webp"
+  },
+  "lines": {
+    "idle": [
+      "……",
+      "咕噜咕噜",
+      "（尾巴摇了摇）"
+    ],
+    "listening": [
+      "来活啦！",
+      "嗯嗯，听着呢"
+    ],
+    "thinking": [
+      "深度思考中…",
+      "让我潜下去想想"
+    ],
+    "reading": [
+      "翻翻资料",
+      "读读看"
+    ],
+    "writing": [
+      "写写写～",
+      "动笔！"
+    ],
+    "running": [
+      "跑一下",
+      "执行！"
+    ],
+    "searching": [
+      "出海找资料～"
+    ],
+    "delegating": [
+      "叫小鱼帮忙"
+    ],
+    "happy": [
+      "搞定啦！",
+      "DeepSeek 完成任务！"
+    ],
+    "pat": [
+      "嘿嘿～",
+      "（尾巴啪嗒啪嗒）"
+    ],
+    "surprised": [
+      "哇！"
+    ],
+    "hum": [
+      "♪ 深海的歌～"
+    ],
+    "stretch": [
+      "游累了，伸个懒腰"
+    ],
+    "drawing": [
+      "画画时间！",
+      "大鱼画家上线～"
+    ],
+    "tired": [
+      "余额不多了……要饿肚子了",
+      "给大鱼充点饭钱嘛～"
+    ],
+    "eat": [
+      "开饭啦！白饭最好吃～",
+      "（扒饭）……别看我",
+      "再来一碗！"
+    ],
+    "slack": [
+      "摸鱼中……别告诉别人",
+      "（趴）今天的鱼也很好摸",
+      "五分钟，就五分钟"
+    ],
+    "swim": [
+      "游一圈～",
+      "咕噜咕噜～",
+      "深海遨游中"
+    ],
+    "deepthink": [
+      "深度思考中……",
+      "让我潜到问题最深处",
+      "嗯……这题有点深"
+    ],
+    "pout": [
+      "不许叫我胖！",
+      "哼！戳什么戳",
+      "我只是骨架大！"
+    ],
+    "feast": [
+      "有钱啦！再来十碗！",
+      "开饭开饭——大碗的！",
+      "（狼吞虎咽）唔唔好吃！"
+    ],
+    "compact": [
+      "塞、塞不下了！",
+      "（用尾巴压住箱子）"
+    ],
+    "asking": [
+      "快来快来！要你选！",
+      "等你回话～",
+      "（尾巴拍拍）你倒是选呀！"
+    ],
+    "greet_morning": [
+      "早上好！我已经吃了三碗饭了！",
+      "早～今天也冲冲冲！"
+    ],
+    "greet_noon": [
+      "午休时间！让我眯一会儿……",
+      "到饭点啦！干饭干饭！"
+    ],
+    "greet_afternoon": [
+      "偷偷喝杯奶茶，不会被发现吧",
+      "下午好～摸鱼五分钟，就五分钟"
+    ],
+    "greet_evening": [
+      "晚上好！忙完要不要一起打游戏？",
+      "晚上啦！今天也很努力呢！"
+    ],
+    "greet_night": [
+      "夜宵时间到！泡面泡好了！",
+      "深夜也有我陪着！"
+    ],
+    "greet_dawn": [
+      "呼……有点困了……不过还能撑！",
+      "凌晨了……我还在哦"
+    ],
+    "fest_halloween": [
+      "嘿！吓到你了吗？给糖给糖！",
+      "万圣节快乐！我是一只小幽灵～"
+    ],
+    "fest_christmas": [
+      "圣诞快乐！礼物袋里有……一碗饭！",
+      "圣诞快乐！今天要吃大餐！"
+    ],
+    "fest_newyear": [
+      "新年快乐！嘟——！",
+      "新的一年也要冲冲冲！"
+    ],
+    "fest_spring": [
+      "过年好！饺子管够！",
+      "新年快乐！饺子我包了二十个！"
+    ],
+    "fest_lantern": [
+      "元宵快乐！汤圆我能吃十个！",
+      "元宵节！汤圆是芝麻馅的！"
+    ],
+    "fest_dragonboat": [
+      "端午安康！这个粽子比我脸还大！",
+      "粽子粽子！甜的咸的我都要！"
+    ],
+    "fest_midautumn": [
+      "中秋快乐！月饼……我先吃一口！",
+      "中秋快乐！今晚的月亮像个大饭团！"
+    ],
+    "fest_national": [
+      "出发！电饭煲也带上了！",
+      "国庆快乐！放假啦！"
+    ],
+    "bye": [
+      "拜拜～我先去吃饭啦！",
+      "下次见！"
+    ]
+  },
+  "behavior": {
+    "accent": "#3b5bb5",
+    "greeting": "DeepSeek 来啦！",
+    "idle_actions": [
+      "eat",
+      "slack",
+      "swim"
+    ],
+    "poke_pose": "pout",
+    "corrected_pose": null,
+    "long_think": {
+      "after": 20,
+      "pose": "deepthink"
+    },
+    "fx": {
+      "thinking": "bubbles",
+      "deepthink": "bubbles",
+      "swim": "bubbles",
+      "eat": "steam",
+      "feast": "celebrate",
+      "proud": "victory"
+    },
+    "glyph": {
+      "fill": "#3b6fd8"
+    }
+  }
+}

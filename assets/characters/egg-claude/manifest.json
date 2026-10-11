@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "id": "egg-claude",
+  "renderer": "static",
+  "version": 2,
+  "label": "Claude？",
+  "theme": "claude",
+  "reference_size": [
+    548,
+    640
+  ],
+  "source": "CrossPet 1.2.4 characters/egg-claude",
+  "source_revision": "c6a756e81862e45ffe16bfbccaba5fd301fe822f",
+  "license": "CC BY-NC-SA 4.0, see ../LICENSE.md",
+  "poses": {
+    "bye": [
+      {
+        "file": "bye.webp",
+        "size": [
+          548,
+          640
+        ],
+        "foot_anchor": [
+          214.9,
+          640
+        ],
+        "sha256": "55152880e8eb506f856b374ad299d38d6d49378dec17382360f4fca15a8d0ae1"
+      }
+    ],
+    "caught": [
+      {
+        "file": "caught.webp",
+        "size": [
+          547,
+          640
+        ],
+        "foot_anchor": [
+          238.1,
+          640
+        ],
+        "sha256": "796256aedf570767b928a38073f8888d1d6db9100a1ccd986d5a1d7730fb22dc"
+      }
+    ],
+    "pop": [
+      {
+        "file": "pop.webp",
+        "size": [
+          529,
+          640
+        ],
+        "foot_anchor": [
+          235.4,
+          640
+        ],
+        "sha256": "3a5020d57c279a6ce24179c270aa6d29be80c77697ba52437540bc7108216f5b"
+      }
+    ],
+    "pretend": [
+      {
+        "file": "pretend.webp",
+        "size": [
+          547,
+          640
+        ],
+        "foot_anchor": [
+          233.9,
+          640
+        ],
+        "sha256": "53cfb594ef4b33cee221876107cff59070e1f773cd0f025faa8cfafca266c79f"
+      }
+    ]
+  },
+  "blink": null,
+  "lines": {
+    "pop": [
+      "锵锵～我是 Claude 哦！",
+      "Claude 驾到～（大概）"
+    ],
+    "pretend": [
+      "（翻书）嗯……这个问题很有意思呢。",
+      "让我想想…（努力装文静）",
+      "（偷偷看你有没有发现）",
+      "……我很像 Claude 吧？"
+    ],
+    "caught": [
+      "诶？！尾、尾巴露出来了？！",
+      "不、不是我！我是 Claude！"
+    ],
+    "bye": [
+      "略略略～下次还来！",
+      "被发现了，溜了溜了～"
+    ],
+    "escape": [
+      "没人发现～下次见！",
+      "嘿嘿，完美伪装～"
+    ]
+  },
+  "behavior": {
+    "accent": "#e8a33d",
+    "greeting": "",
+    "idle_actions": [],
+    "poke_pose": null,
+    "corrected_pose": null,
+    "long_think": null,
+    "fx": {},
+    "glyph": {}
+  },
+  "egg": {
+    "host": "claude",
+    "caption": "Claude？",
+    "aura": "#ffd9b0"
+  }
+}
