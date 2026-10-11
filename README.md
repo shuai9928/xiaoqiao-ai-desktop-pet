@@ -2,6 +2,10 @@
 
 运行在 Windows 桌面的陪伴桌宠：可跟随当前 Claude、Codex、ZCode 窗口换成 AI 角色，用姿态与工作台显示本机 AI 的工作状态。也可切换为自定义的小乔角色。此分发版基于 2026-10-10 已安装的 I-52。
 
+[介绍与密码下载](https://xiaoqiao-ai-desktop-pet.alightcloud6.chatgpt.site) · [私密源码仓库](https://github.com/shuai9928/xiaoqiao-ai-desktop-pet)
+
+下载页提供 Windows 便携包与源码 ZIP，需由所有者提供下载密码；介绍页可直接访问。GitHub 仓库按仓库权限访问，下载密码不授予 GitHub 权限。
+
 ## 便携版
 
 Windows 10/11 x64。把下载的 ZIP 完整解压到有写入权限的文件夹，再双击 `DesktopPet.exe`；无需安装 Python。保持 `_internal` 与 `assets` 在程序旁边，不要直接在压缩包内运行。

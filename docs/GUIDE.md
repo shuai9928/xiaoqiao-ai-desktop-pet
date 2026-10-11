@@ -47,9 +47,7 @@ py -m venv .venv
 
 “委派子智能体 · 颜色与对比度”表示已经观察到这类分工；它没有宣告子代理完成。阶段点不是工具调用计数，也不是完成百分比。更详细的数据来源和限制见[AI 与数据](ASSISTANT.md)。
 
-## 配置自由聊天（可选）
-
-### 可选的 WSL 会话灯
+## 可选的 WSL 会话灯
 
 `xiaoqiao-lights-hook.py` 默认把状态写到脚本所在目录。若将 hook 复制到 `~/.local/bin/`，需在调用它的 hook 命令中设置 `XIAOQIAO_ROOT`，指向自己桌宠解压目录的 WSL 路径，并将 `ai_lights_core.py` 放在同一目录。例如：
 
@@ -59,7 +57,7 @@ XIAOQIAO_ROOT='/mnt/d/Apps/DesktopPet' python3 ~/.local/bin/xiaoqiao-lights-hook
 
 该命令仅说明目标目录；还需按本机 Codex 的 hooks 设置注册相应事件并重新信任。无需 WSL 集成时可以跳过。
 
-### 自由聊天
+## 配置自由聊天（可选）
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements-ai.txt
@@ -97,6 +95,6 @@ git pull --ff-only
 
 ## 打包与许可
 
-开发者可以安装 `requirements-build.txt`，运行 `py tools/release/build_release.py` 生成 Windows 发布包。本次仓库整理不代表该可执行包已重新验收；发布前需检查启动、素材、外部 hook 依赖和包内私人文件。
+开发者可以安装 `requirements-build.txt`，运行 `py tools/release/build_release.py` 生成 Windows 发布包。每次发布前需检查启动、素材、外部 hook 依赖和包内私人文件；本次验证范围见根目录 `DISTRIBUTION.md`。
 
 源码采用 [MIT](../LICENSE)，角色、美术、音乐与语音另有[素材授权限制](../ASSET_LICENSES.md)。`house3d/` 保留为独立 Godot 实验，不影响基本启动。
