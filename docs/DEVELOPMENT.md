@@ -101,7 +101,6 @@ py tools/preview_workspace.py --mode steps
 
 Windows 打包入口是 `py tools/release/build_release.py`，需安装 `requirements-build.txt`。目录整理不等于可执行发布包已经验收；包内素材、运行入口、外部 hook 依赖和敏感文件排除需另行验证。
 
-历史说明集中在 [docs/archive](archive/README.md)。不要把归档中的旧菜单、源代码副本、性能数字或图稿写进当前能力清单。新增依赖和素材来源应同步更新许可说明。
 
 
 ## 秋千动作预览

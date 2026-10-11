@@ -19,7 +19,6 @@
 | 已验证的经验 | [设计记忆](design/DESIGN_MEMORY.md) |
 | 每轮改动与验证结果 | [迭代记录](design/DESIGN_ITERATIONS.md) |
 | 累积内容与实验记录 | [内容清单](design/CONTENTS.md)、[实验记录](design/EXPERIMENTS.md) |
-| 旧说明与云端交接资料 | [历史归档](archive/README.md) |
 | 源码与素材许可 | [MIT](../LICENSE)、[素材授权说明](../ASSET_LICENSES.md) |
 
 设计文件包含历次用户更正，阅读时以最新适用条款和当前代码为准。历史功能出现在记录中，不等于它仍在默认菜单或聊天动作里开放。

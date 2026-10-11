@@ -18,6 +18,8 @@ PATTERNS = {
     'aws-key': re.compile(r'AKIA[0-9A-Z]{16}'),
     'private-key': re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----'),
     'local-user-path': re.compile(r'(?i)[A-Z]:[\\/]+Users[\\/]+(?!Public\b|Default\b|example\b|user\b)[^\\/\s"\']+'),
+    'wsl-user-path': re.compile(r'(?i)/mnt/[a-z]/Users/(?!Public\b|Default\b|example\b|user\b)[^/\s"\'([]+'),
+    'mac-user-path': re.compile(r'/Users/(?!Shared\b|example\b|user\b)[^/\s"\'([]+'),
 }
 
 

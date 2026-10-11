@@ -24,7 +24,7 @@ import sys
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-PROJECT = "/mnt/c/Users/32447/.zcode/workspace/default/xiaoqiao-2.5d"
+PROJECT = os.path.abspath(os.path.expanduser(os.environ.get("XIAOQIAO_ROOT", HERE)))
 DEST = os.path.join(PROJECT, "ai_sessions")
 LOCK = os.path.expanduser("~/.cache/xiaoqiao-lights.lock")
 KEEP = 8

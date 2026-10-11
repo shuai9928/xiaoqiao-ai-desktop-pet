@@ -49,6 +49,18 @@ py -m venv .venv
 
 ## 配置自由聊天（可选）
 
+### 可选的 WSL 会话灯
+
+`xiaoqiao-lights-hook.py` 默认把状态写到脚本所在目录。若将 hook 复制到 `~/.local/bin/`，需在调用它的 hook 命令中设置 `XIAOQIAO_ROOT`，指向自己桌宠解压目录的 WSL 路径，并将 `ai_lights_core.py` 放在同一目录。例如：
+
+```bash
+XIAOQIAO_ROOT='/mnt/d/Apps/DesktopPet' python3 ~/.local/bin/xiaoqiao-lights-hook.py running
+```
+
+该命令仅说明目标目录；还需按本机 Codex 的 hooks 设置注册相应事件并重新信任。无需 WSL 集成时可以跳过。
+
+### 自由聊天
+
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements-ai.txt
 ```
