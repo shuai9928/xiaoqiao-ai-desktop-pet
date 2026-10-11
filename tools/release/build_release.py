@@ -25,6 +25,11 @@ def main():
     subprocess.run(args,cwd=ROOT,check=True)
     out=RELEASE/APP
     shutil.copytree(DIST/APP,out)
+    # SDK test fixtures are unnecessary at runtime and may resemble credentials.
+    internal=out/'_internal'
+    for path in sorted(internal.rglob('*'),key=lambda p:len(p.parts),reverse=True):
+        if path.is_dir() and path.name in {'tests','test'}:
+            shutil.rmtree(path)
     for src in sorted((ROOT/'assets').rglob('*')):
         if src.is_file() and allowed(src.relative_to(ROOT/'assets')):
             dst=out/'assets'/src.relative_to(ROOT/'assets');dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dst)
