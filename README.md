@@ -8,11 +8,11 @@
 
 ## 演示视频
 
-https://github.com/user-attachments/assets/c880d15e-7eaf-4cdc-a23d-11ee9215c8d1
+[![AI 桌宠：角色随 AI 切换，工作台显示会话状态](docs/media/cover.png)](https://shuai9928.github.io/xiaoqiao-ai-desktop-pet/watch.html)
 
-**[观看完整视频（约 53 秒）](https://github.com/user-attachments/assets/c880d15e-7eaf-4cdc-a23d-11ee9215c8d1)** · [下载 1080p MP4](https://raw.githubusercontent.com/shuai9928/xiaoqiao-ai-desktop-pet/main/docs/media/demo.mp4) · [字幕](docs/media/demo.srt) · [封面、截图与署名](docs/media/README.md)
+**[观看完整视频（约 53 秒）](https://shuai9928.github.io/xiaoqiao-ai-desktop-pet/watch.html)** · [下载 1080p MP4](https://raw.githubusercontent.com/shuai9928/xiaoqiao-ai-desktop-pet/main/docs/media/demo.mp4) · [字幕](docs/media/demo.srt) · [封面、截图与署名](docs/media/README.md)
 
-页面内可播放完整 720p 版本，1080p 原片可单独下载。
+打开播放页可观看完整 1080p 视频，也可单独下载原片。
 
 视频为离线渲染的功能演示，会话、额度和文件名均为模拟数据。画面展示制作时的演示版本；本仓库为上文所述 I-52 分发版，具体功能和接入条件以源码与使用指南为准。AI 角色画面沿用 CrossPet 的 CC BY-NC-SA 4.0 署名与使用范围。
 

@@ -1,10 +1,10 @@
 # AI 桌宠演示视频与图片
 
-[返回项目说明](../../README.md) · **[观看完整视频](https://github.com/user-attachments/assets/c880d15e-7eaf-4cdc-a23d-11ee9215c8d1)** · [下载 1080p MP4](https://raw.githubusercontent.com/shuai9928/xiaoqiao-ai-desktop-pet/main/docs/media/demo.mp4) · [SRT 字幕](demo.srt)
+[返回项目说明](../../README.md) · **[观看完整视频](https://shuai9928.github.io/xiaoqiao-ai-desktop-pet/watch.html)** · [下载 1080p MP4](https://raw.githubusercontent.com/shuai9928/xiaoqiao-ai-desktop-pet/main/docs/media/demo.mp4) · [SRT 字幕](demo.srt)
 
-https://github.com/user-attachments/assets/c880d15e-7eaf-4cdc-a23d-11ee9215c8d1
+[▶ 打开完整视频播放页](https://shuai9928.github.io/xiaoqiao-ai-desktop-pet/watch.html)
 
-页面内为完整 720p 播放版；仓库中的 `demo.mp4` 保留 1080p 原片。
+播放页直接展示完整 1080p 视频；仓库中的 `demo.mp4` 保留同一原片。
 
 成片为 AI 桌宠介绍视频第五版：52.5 秒，1920×1080，30 fps，含旁白与画面字幕。视频、封面和截图随源码一起公开，获取文件无需下载密码。
 
@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/c880d15e-7eaf-4cdc-a23d-11ee9215c8d1
 
 ### 几个 AI 的状态放在一起
 
-[![桌宠与工作台：显示各 AI 示例任务和模拟额度](cover.png)](https://github.com/user-attachments/assets/c880d15e-7eaf-4cdc-a23d-11ee9215c8d1)
+[![桌宠与工作台：显示各 AI 示例任务和模拟额度](cover.png)](https://shuai9928.github.io/xiaoqiao-ai-desktop-pet/watch.html)
 
 ### 展开阶段概览
 

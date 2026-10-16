@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="观看 Windows AI 桌宠演示：桌宠姿态、AI 工作台、阶段概览与委派任务的小帮手动画。">
+  <title>AI 桌宠 · Windows · 演示视频</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #11131a; color: #eef0f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: 100%; max-width: 1008px; margin: 0 auto; padding: 40px 24px 56px; }
+    h1 { margin: 0 0 12px; font-size: clamp(26px, 5vw, 38px); line-height: 1.2; }
+    p { margin: 0 0 20px; color: #bec4d1; line-height: 1.7; }
+    a { color: #afc7ff; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #afc7ff; outline-offset: 5px; }
+    video, img { display: block; width: 100%; max-width: 960px; height: auto; border-radius: 12px; background: #000; }
+    video { aspect-ratio: 16 / 9; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 20px 0; line-height: 1.6; }
+    h2 { margin: 40px 0 18px; font-size: 22px; }
+    figure { margin: 0 0 28px; }
+    figcaption { margin-top: 10px; color: #bec4d1; line-height: 1.6; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid #333845; }
+    footer p { margin: 0; font-size: 14px; }
+    @media (max-width: 600px) { main { padding: 28px 16px 40px; } nav { gap: 10px 18px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>AI 桌宠 · Windows</h1>
+    <p>桌面角落的伙伴，用姿态与工作台显示本机 AI 的工作状态。</p>
+    <video controls preload="metadata" poster="media/cover.png" playsinline>
+      <source src="media/demo.mp4" type="video/mp4">
+      你的浏览器无法播放此视频，可以<a href="media/demo.mp4" download="AI-Desktop-Pet-1080p.mp4">下载 1080p 原片</a>观看。
+    </video>
+    <nav aria-label="视频与项目链接">
+      <a href="https://github.com/shuai9928/xiaoqiao-ai-desktop-pet">公开源码</a>
+      <a href="media/demo.mp4" download="AI-Desktop-Pet-1080p.mp4">下载 1080p 原片</a>
+      <a href="media/demo.srt" download="AI-Desktop-Pet-demo.srt">SRT 字幕</a>
+      <a href="https://github.com/shuai9928/xiaoqiao-ai-desktop-pet/blob/main/docs/media/README.md">媒体来源与署名</a>
+    </nav>
+    <p>完整演示约 53 秒，使用模拟会话与额度，包含画面字幕和旁白。画面展示制作时的演示版本，具体功能与接入条件见公开源码及使用指南。</p>
+    <h2>视频截图</h2>
+    <figure>
+      <a href="media/workbench.png"><img src="media/workbench.png" alt="点开 AI 桌宠的示例任务，查看工作阶段与分工" loading="lazy"></a>
+      <figcaption>展开阶段概览，查看任务进展与分工。</figcaption>
+    </figure>
+    <figure>
+      <a href="media/delegating.png"><img src="media/delegating.png" alt="Claude、Codex 与 GLM 委派任务时的小帮手动画示意" loading="lazy"></a>
+      <figcaption>委派任务时，小帮手也会出现在桌面上。</figcaption>
+    </figure>
+    <footer>
+      <p>AI 角色画面来自 <a href="https://github.com/lokicorvus/crosspet">CrossPet</a>，沿用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>（署名、非商用、相同方式共享）。请保留<a href="https://github.com/shuai9928/xiaoqiao-ai-desktop-pet/blob/main/assets/characters/LICENSE.md">完整角色署名</a>；其他素材与配音范围见<a href="https://github.com/shuai9928/xiaoqiao-ai-desktop-pet/blob/main/docs/media/README.md">媒体来源与署名</a>。</p>
+    </footer>
+  </main>
+</body>
+</html>
