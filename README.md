@@ -2,9 +2,17 @@
 
 运行在 Windows 桌面的陪伴桌宠：可跟随当前 Claude、Codex、ZCode 窗口换成 AI 角色，用姿态与工作台显示本机 AI 的工作状态。也可切换为自定义的小乔角色。此分发版基于 2026-10-10 的 I-52，并恢复小乔表情贴纸默认开启。
 
-[介绍与密码下载](https://xiaoqiao-ai-desktop-pet.alightcloud6.chatgpt.site) · [私密源码仓库](https://github.com/shuai9928/xiaoqiao-ai-desktop-pet)
+[演示视频](#演示视频) · [下载源码 ZIP](https://github.com/shuai9928/xiaoqiao-ai-desktop-pet/archive/refs/heads/main.zip) · [使用指南](docs/GUIDE.md) · [更换角色](docs/CUSTOMIZE.md)
 
-下载页提供 Windows 便携包与源码 ZIP，需由所有者提供下载密码；介绍页可直接访问。GitHub 仓库按仓库权限访问，下载密码不授予 GitHub 权限。
+源码现已公开，采用 MIT 许可，无需下载密码。角色、美术和音频保留各自授权范围，详见[许可](#许可)。原[介绍页](https://xiaoqiao-ai-desktop-pet.alightcloud6.chatgpt.site)的历史便携包下载仍可能要求密码，与公开 GitHub 源码的访问无关。
+
+## 演示视频
+
+[![AI 桌宠：角色随 AI 切换，工作台显示会话状态](docs/media/cover.png)](docs/media/demo.mp4)
+
+**[观看完整视频（约 53 秒，1080p）](docs/media/demo.mp4)** · [下载 MP4](https://raw.githubusercontent.com/shuai9928/xiaoqiao-ai-desktop-pet/main/docs/media/demo.mp4) · [字幕](docs/media/demo.srt) · [更多视频截图与署名](docs/media/README.md)
+
+视频为离线渲染的功能演示，会话、额度和文件名均为模拟数据。画面展示制作时的演示版本；本仓库为上文所述 I-52 分发版，具体功能和接入条件以源码与使用指南为准。AI 角色画面沿用 CrossPet 的 CC BY-NC-SA 4.0 署名与使用范围。
 
 ## 便携版
 
@@ -19,6 +27,8 @@ Windows 10/11 x64。把下载的 ZIP 完整解压到有写入权限的文件夹�
 升级时先从菜单退出旧实例，再解压新版到新目录。个人数据迁移前先备份；不要直接覆盖运行中的安装。
 
 ## 源码启动
+
+直接[下载源码 ZIP](https://github.com/shuai9928/xiaoqiao-ai-desktop-pet/archive/refs/heads/main.zip)解压，或使用 `git clone https://github.com/shuai9928/xiaoqiao-ai-desktop-pet.git`。获取源码无需 GitHub 登录。
 
 准备 Windows 10/11 和带 Tkinter 的 Python（此版本使用 Python 3.14 验证）：
 
